@@ -358,10 +358,10 @@ body {
 /* ---------------------------------- */
 .get-started {
     background-color: #FAFBFD;
+    padding: 150px 15px 50px 15px;
 }
 
 .get-started__container {
-    padding: 150px 15px 50px 15px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -380,7 +380,7 @@ body {
     background-color: #ec5863;
 }
 
-.get-started-content {
+.get-started__content {
     flex: 0 1 48%;
     padding: 0px 20px;
 }
@@ -397,6 +397,7 @@ body {
 }
 
 .get-started__video {
+    flex: 1 1 100%;
     padding: 60px 0px 0px 20px;
 }
 .video-get-started {
@@ -444,7 +445,7 @@ body {
     .get-started__block-text {
         max-width: none;
     }
-    .get-started-content {
+    .get-started__content {
         flex: 1 1 100%;
         padding: 0;
     }
@@ -707,7 +708,9 @@ body {
     padding: 80px 0px 30px 0px;
 }
 .healthcare__container {}
-.healthcare___block-text {}
+.healthcare___block-text {
+    margin: 0px 0px 45px 0px;
+}
 /* .healthcare__body {
     margin: 0px 0px 45px 0px;
 } */
@@ -720,11 +723,11 @@ body {
 
 .healthcare__items {
     display: flex;
-    min-width: 980px;
+    max-width: 980px;
     /* gap: 72px; */
 }
 .healthcare__item {
-    
+    flex: 0 1 33.333%;
 }
 .item-healthcare {
     height: 100%;
