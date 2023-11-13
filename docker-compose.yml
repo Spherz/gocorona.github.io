@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  web:
+    image: go-corona
+    build: .
+    container_name: GoCorona
+    restart: always
+    ports:
+      - "8080:80" 
