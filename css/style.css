@@ -358,10 +358,11 @@ body {
 /* ---------------------------------- */
 .get-started {
     background-color: #FAFBFD;
-    padding: 150px 15px 50px 15px;
+
 }
 
 .get-started__container {
+    padding: 150px 15px 50px 15px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
